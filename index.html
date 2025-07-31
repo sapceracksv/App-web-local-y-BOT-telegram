@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda Avanzada</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Búsqueda Avanzada de Ciudadanos</h1>
+        <form id="search-form">
+            <div class="inputs-grid">
+                <input type="text" name="nombres" placeholder="Nombres">
+                <input type="text" name="apellidos" placeholder="Apellidos">
+                
+                <input type="text" name="dui" placeholder="Dui">
+                
+                <input type="text" name="nombre_empresa" placeholder="Razon Social de Empresa">
+
+                <input type="text" name="telefono" placeholder="Teléfono">
+                <input type="text" name="correo" placeholder="Correo Electrónico">
+                <input type="text" name="direccion" placeholder="Dirección">
+                <input type="text" name="ciudad" placeholder="Ciudad">
+                <input type="text" name="calle" placeholder="Calle">
+                <input type="text" name="placa" placeholder="Placa del vehículo">
+                <input type="text" name="edad" placeholder="Edad">
+                
+                <select name="sexo">
+                    <option value="">-- Ambos sexos --</option>
+                    <option value="F">Mujer</option>
+                    <option value="M">Hombre</option>
+                </select>
+            </div>
+            <div id="error" class="error"></div>
+            <button type="submit" id="search-btn" class="btn">
+                <span class="btn-text">Buscar</span>
+                <div id="loader" class="loader hidden"></div>
+            </button>
+            <button type="button" id="clear-btn" class="btn clear-btn">Limpiar Resultados</button>
+        </form>
+
+        <div id="alphabet-filter-container" class="hidden">
+            <div id="alphabet-filter"></div>
+        </div>
+
+        <div id="results"></div>
+        <div id="pagination"></div>
+    </div>
+
+    <button id="scrollToTopBtn" title="Ir arriba">▲</button>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
