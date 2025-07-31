@@ -1,5 +1,17 @@
 Proyecto de Búsqueda de Personas (Web y Telegram)
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+          ( MUCHO OJO )
+
+Este codigo se hizo mas que todo para tener una busqueda y un Bot personal de los leaks que realizo el Grupo CiberinteligenciaSV.
+No soy parte de dicho grupo ni distribuyo base de datos de informacion personal
+Esto es solo para los que tengan dicha informacion y quieran una interfaz mas amigable.
+Se asume que la base de datos es una sola tabla con todos esos leaks, cada quien debera realizar ese proceso.
+Cualquier error en el codigo lo debera de solventar cada quien, porque esta libre para su uso o comercializacion.
+
+          (FIN DEL COMUNICADO)  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+          
 
 
 Esta es una aplicación completa que proporciona una interfaz web y un bot de Telegram para realizar búsquedas avanzadas en una base de datos de personas. El código está diseñado para ser genérico, seguro y fácilmente configurable para cualquier base de datos SQL Server.
