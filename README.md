@@ -1,7 +1,11 @@
 Proyecto de Búsqueda de Personas (Web y Telegram)
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
           ( MUCHO OJO )
+
+
 
 Este codigo se hizo mas que todo para tener una busqueda y un Bot personal de los leaks que realizo el Grupo CiberinteligenciaSV.
 No soy parte de dicho grupo ni distribuyo base de datos de informacion personal
@@ -9,7 +13,13 @@ Esto es solo para los que tengan dicha informacion y quieran una interfaz mas am
 Se asume que la base de datos es una sola tabla con todos esos leaks, cada quien debera realizar ese proceso.
 Cualquier error en el codigo lo debera de solventar cada quien, porque esta libre para su uso o comercializacion.
 
+
+
           (FIN DEL COMUNICADO)  
+
+
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
           
 
@@ -37,9 +47,7 @@ Un Bot de Telegram creado desde BotFather.
 Guía de Instalación:
 
 1. Clonar el Repositorio:
- 
-git clone [https://github.com/sapceracksv/App-web-local-y-BOT-telegram.git](https://github.com/sapceracksv/App-web-local-y-BOT-telegram.git)
-cd App-web-local-y-BOT-telegram
+ cd App-web-local-y-BOT-telegram
 
 
 2. Organizar la Estructura de Carpetas
