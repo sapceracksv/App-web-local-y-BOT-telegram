@@ -1,0 +1,4 @@
+Flask
+pymssql
+python-dotenv
+gender-guesser
