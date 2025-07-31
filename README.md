@@ -47,7 +47,8 @@ Un Bot de Telegram creado desde BotFather.
 Guía de Instalación:
 
 1. Clonar el Repositorio:
- cd App-web-local-y-BOT-telegram
+ 
+ ( cd App-web-local-y-BOT-telegram )
 
 
 2. Organizar la Estructura de Carpetas
@@ -101,7 +102,7 @@ python-dotenv
 
 Luego, instala todas las librerías con pip:
 
-pip install -r requirements.txt
+( pip install -r requirements.txt )
 
 5. Configurar el Entorno (Paso más importante)
 
@@ -127,12 +128,12 @@ Necesitarás ejecutar la aplicación web y el bot de Telegram por separado, pref
 
 Terminal 1: Iniciar el Servidor Web
 
-python app.py
+( python3 app.py )
 
 La interfaz web estará disponible en http://127.0.0.1:5000.
 
 Terminal 2: Iniciar el Bot de Telegram
 
-python bot.py
+( python3 bot.py )
 
 ¡Y listo! Tu sistema de búsqueda debería estar completamente operativo y configurado para tu entorno específico.
