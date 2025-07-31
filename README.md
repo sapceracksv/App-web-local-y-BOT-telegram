@@ -33,21 +33,22 @@ cd App-web-local-y-BOT-telegram
 2. Organizar la Estructura de Carpetas
 Para que la aplicación web funcione, los archivos deben estar en carpetas específicas. Asegúrate de que tu proyecto tenga la siguiente estructura:
 
-tu-proyecto/
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── main.js
-├── templates/
-│   ├── base.html
-│   └── index.html
-├── app.py
-├── bot.py
-├── database.py
-├── gender_predictor.py
-├── requirements.txt
-└── .env
+Raiz de la carpeta: El nombre del proyecto
+Carpeta: static
+    Subcarpeta: css
+        Archivo: style.css
+Carpeta: js
+    Subcarpeta: main.js
+        Archivo: templates
+Carpeta: templates
+      base.html
+      index.html
+app.py
+bot.py
+database.py
+gender_predictor.py
+requirements.txt
+.env
 
 
 Instrucciones:
