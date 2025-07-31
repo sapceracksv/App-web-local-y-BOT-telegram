@@ -23,7 +23,7 @@ Un Bot de Telegram creado desde BotFather.
 
 Guía de Instalación Rápida.
 1. Clonar el Repositorio
-git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
+git clone (https://github.com/sapceracksv/App-web-local-y-BOT-telegram.git)
 cd App-web-local-y-BOT-telegram
 
 2. Crear un Entorno Virtual
